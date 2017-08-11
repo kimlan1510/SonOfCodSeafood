@@ -18,10 +18,6 @@ namespace SonOfCodSeafood.Controllers
             _db = db;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
         //Register a new Account
         public IActionResult Register()
         {
@@ -34,7 +30,7 @@ namespace SonOfCodSeafood.Controllers
             IdentityResult result = await _userManager.CreateAsync(user, model.Password);
             if (result.Succeeded)
             {
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Home");
             }
             else
             {
@@ -53,7 +49,7 @@ namespace SonOfCodSeafood.Controllers
             Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, isPersistent: true, lockoutOnFailure: false);
             if (result.Succeeded)
             {
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Home");
             }
             else
             {
@@ -65,7 +61,7 @@ namespace SonOfCodSeafood.Controllers
         public async Task<IActionResult> LogOff()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Home");
         }
         //end of login and logoff
 
