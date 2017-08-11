@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "All Emails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<SonOfCodSeafood.Models.NewsLetter>
+<h2>News Letter Emails</h2>
+
+
+@foreach (var email in Model)
+{
+
+    <h3>Name: @Html.DisplayFor(e => email.Email)</h3>
+    <p>@Html.ActionLink("Delete", "Delete", new { id = email.NewsLetterId })</p>
+}
+
+<p>@Html.ActionLink("Back Home", "Index", "Account")</p>
+<p>@Html.ActionLink("Create New", "Create")</p>
