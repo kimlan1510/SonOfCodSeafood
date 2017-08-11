@@ -12,9 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonOfCodSeafood", "src\SonOfCodSeafood\SonOfCodSeafood.xproj", "{393F1B1B-C0CB-4173-9BED-11231D5194DF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{ABD17AF1-1289-4316-B5F5-B8E2196F15A5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E3D8887F-3610-4E95-BDDB-29F0A7E647B0}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonOfCodSeafoodTest", "SonOfCodSeafoodTest\SonOfCodSeafoodTest.xproj", "{F32B15B6-77E5-4030-9235-4F6FF10CBF2A}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonOfCodSeafood.Tests", "SonOfCodSeafood.Tests\SonOfCodSeafood.Tests.xproj", "{5CA23F8B-F208-4D80-80F3-08ED220D160F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,16 +26,16 @@ Global
 		{393F1B1B-C0CB-4173-9BED-11231D5194DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{393F1B1B-C0CB-4173-9BED-11231D5194DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{393F1B1B-C0CB-4173-9BED-11231D5194DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F32B15B6-77E5-4030-9235-4F6FF10CBF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F32B15B6-77E5-4030-9235-4F6FF10CBF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F32B15B6-77E5-4030-9235-4F6FF10CBF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F32B15B6-77E5-4030-9235-4F6FF10CBF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA23F8B-F208-4D80-80F3-08ED220D160F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA23F8B-F208-4D80-80F3-08ED220D160F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA23F8B-F208-4D80-80F3-08ED220D160F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA23F8B-F208-4D80-80F3-08ED220D160F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{393F1B1B-C0CB-4173-9BED-11231D5194DF} = {51E89612-5905-423C-A38D-FD4970FA6111}
-		{F32B15B6-77E5-4030-9235-4F6FF10CBF2A} = {ABD17AF1-1289-4316-B5F5-B8E2196F15A5}
+		{5CA23F8B-F208-4D80-80F3-08ED220D160F} = {E3D8887F-3610-4E95-BDDB-29F0A7E647B0}
 	EndGlobalSection
 EndGlobal

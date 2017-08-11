@@ -20,9 +20,11 @@ namespace SonOfCodSeafood.Controllers
         [HttpPost]
         public IActionResult Create(NewsLetter newsletter)
         {
-            db.NewsLetters.Add(newsletter);
-            db.SaveChanges();
-            return RedirectToAction("Index", "Home");
+            
+                db.NewsLetters.Add(newsletter);
+                db.SaveChanges();
+            
+                return RedirectToAction("Index", "Home");
         }
         //Delete an email
         public IActionResult Delete(int id)

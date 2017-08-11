@@ -210,6 +210,8 @@
 "C:\Users\epicodus\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\20170811202901_AddNewsLetter.Designer.cs"
 "C:\Users\epicodus\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\20170811203025_AddNewsLetter1.cs"
 "C:\Users\epicodus\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\20170811203025_AddNewsLetter1.Designer.cs"
+"C:\Users\epicodus\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\20170811221208_RemoveEmailValidation.cs"
+"C:\Users\epicodus\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\20170811221208_RemoveEmailValidation.Designer.cs"
 "C:\Users\epicodus\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\ApplicationDbContextModelSnapshot.cs"
 "C:\Users\epicodus\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\Models\ApplicationDbContext.cs"
 "C:\Users\epicodus\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\Models\ApplicationUser.cs"

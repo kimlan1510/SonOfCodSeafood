@@ -1,5 +1,5 @@
---temp-output:C:\Users\epicodus\Desktop\SonOfCodSeafood\SonOfCodSeafoodTest\obj\Debug\netcoreapp1.0\
---out:C:\Users\epicodus\Desktop\SonOfCodSeafood\SonOfCodSeafoodTest\bin\Debug\netcoreapp1.0\SonOfCodSeafoodTest.dll
+--temp-output:C:\Users\epicodus\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\obj\Debug\netcoreapp1.0\
+--out:C:\Users\epicodus\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\bin\Debug\netcoreapp1.0\SonOfCodSeafood.Tests.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -7,7 +7,7 @@
 --suppress-warning:CS1702
 --suppress-warning:CS1705
 --optimize:False
---output-name:SonOfCodSeafoodTest
+--output-name:SonOfCodSeafood.Tests
 --file-version:1.0.0.0
 --version:1.0.0.0
 --informational-version:1.0.0
@@ -198,6 +198,6 @@
 --reference:C:\Users\epicodus\.nuget\packages\xunit.runner.reporters\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.reporters.dotnet.dll
 --reference:C:\Users\epicodus\.nuget\packages\xunit.runner.utility\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.utility.dotnet.dll
 --reference:C:\Users\epicodus\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\bin\Debug\netcoreapp1.0\SonOfCodSeafood.dll
-C:\Users\epicodus\Desktop\SonOfCodSeafood\SonOfCodSeafoodTest\Class1.cs
-C:\Users\epicodus\Desktop\SonOfCodSeafood\SonOfCodSeafoodTest\ModelTests\NewsLetterTest.cs
-C:\Users\epicodus\Desktop\SonOfCodSeafood\SonOfCodSeafoodTest\Properties\AssemblyInfo.cs
+C:\Users\epicodus\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\ControllerTests\NewsLetterControllerTest.cs
+C:\Users\epicodus\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\ModelTests\NewsLetterTest.cs
+C:\Users\epicodus\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\Properties\AssemblyInfo.cs
