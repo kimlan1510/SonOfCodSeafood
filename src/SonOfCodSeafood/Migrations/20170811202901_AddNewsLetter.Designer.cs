@@ -8,9 +8,10 @@ using SonOfCodSeafood.Models;
 namespace SonOfCodSeafood.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170811202901_AddNewsLetter")]
+    partial class AddNewsLetter
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.0.1")
@@ -170,19 +171,6 @@ namespace SonOfCodSeafood.Migrations
                         .HasName("UserNameIndex");
 
                     b.ToTable("AspNetUsers");
-                });
-
-            modelBuilder.Entity("SonOfCodSeafood.Models.NewsLetter", b =>
-                {
-                    b.Property<int>("NewsLetterId")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("Email")
-                        .IsRequired();
-
-                    b.HasKey("NewsLetterId");
-
-                    b.ToTable("NewsLetters");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim<string>", b =>
