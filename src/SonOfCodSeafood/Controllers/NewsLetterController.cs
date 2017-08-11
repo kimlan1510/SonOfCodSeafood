@@ -17,16 +17,12 @@ namespace SonOfCodSeafood.Controllers
             return View(db.NewsLetters.ToList());
         }
         //Create a New email
-        public IActionResult Create()
-        {
-            return View();
-        }
         [HttpPost]
         public IActionResult Create(NewsLetter newsletter)
         {
             db.NewsLetters.Add(newsletter);
             db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Home");
         }
         //Delete an email
         public IActionResult Delete(int id)
@@ -41,7 +37,7 @@ namespace SonOfCodSeafood.Controllers
             var thisEmail = db.NewsLetters.FirstOrDefault(e => e.NewsLetterId == id);
             db.NewsLetters.Remove(thisEmail);
             db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Home");
         }
     }
 }

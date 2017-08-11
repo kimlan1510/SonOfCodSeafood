@@ -1,8 +1,10 @@
 ﻿@using System.Security.Claims
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     ViewData["Title"] = "Home";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@model SonOfCodSeafood.Models.NewsLetter
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -27,9 +29,7 @@
             <div class="carousel-caption" role="option">
                 <p>
                     Customer Service
-                    <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
-                        Learn More
-                    </a>
+                    
                 </p>
             </div>
         </div>
@@ -38,9 +38,7 @@
             <div class="carousel-caption" role="option">
                 <p>
                     Quality
-                    <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
-                        Learn More
-                    </a>
+                    
                 </p>
             </div>
         </div>
@@ -49,9 +47,7 @@
             <div class="carousel-caption" role="option">
                 <p>
                     Inovation
-                    <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
-                        Learn More
-                    </a>
+                   
                 </p>
             </div>
         </div>
@@ -66,3 +62,21 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+<div id="form">
+    
+    @using (Html.BeginForm("Create", "NewsLetter"))
+    {
+        @Html.TextBoxFor(model => model.Email, htmlAttributes: new { placeholder = "join our newsletter" })
+
+        <input type="submit" value="Create" />
+    }
+
+    
+</div>
+   @*@using (Html.BeginForm("Create", "NewsLetter"))
+   {
+    @Html.LabelFor(model => model.Email)
+    @Html.TextBoxFor(model => model.Email)
+
+    <input type="submit" value="Create" />
+   }*@

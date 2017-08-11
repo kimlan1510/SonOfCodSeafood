@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/site.css">
     <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
 
 </head>
@@ -18,7 +19,10 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li><a asp-area="" asp-controller="NewsLetter" asp-action="Index">NewsLetters List</a></li>
+                    }
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a  asp-area="" asp-controller="Account" asp-action="Register"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>

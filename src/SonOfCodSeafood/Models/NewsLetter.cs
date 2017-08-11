@@ -15,7 +15,7 @@ namespace SonOfCodSeafood.Models
         [Display (Name = "Email Address")]
         [Required(ErrorMessage = "Email is required")]
         [RegularExpression(@"^[\w -\.] +@([\w -] +\.)+[\w-]{2,4}$", ErrorMessage = "Please provide a valid email address!")]
-        [EmailAddress]
+        
         public string Email { get; set; }
     }
 }
