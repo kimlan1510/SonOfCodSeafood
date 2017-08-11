@@ -5,8 +5,7 @@ namespace SonOfCodSeafood.ViewModels
     public class RegisterViewModel
     {
         [Required(ErrorMessage = "Enter a valid email address")]
-        [RegularExpression(@"^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$",
-        ErrorMessage = "Please enter valid email address.")]
+        [RegularExpression(@"^[\w -\.] +@([\w -] +\.)+[\w-]{2,4}$", ErrorMessage = "Please provide a valid email address!")]
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }
