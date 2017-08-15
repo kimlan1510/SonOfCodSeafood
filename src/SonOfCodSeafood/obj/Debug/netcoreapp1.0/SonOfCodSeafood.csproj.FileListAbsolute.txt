@@ -1,0 +1,9 @@
+C:\Users\Bo\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\bin\Debug\netcoreapp1.0\SonOfCodSeafood.deps.json
+C:\Users\Bo\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\bin\Debug\netcoreapp1.0\SonOfCodSeafood.runtimeconfig.json
+C:\Users\Bo\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\bin\Debug\netcoreapp1.0\SonOfCodSeafood.runtimeconfig.dev.json
+C:\Users\Bo\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\bin\Debug\netcoreapp1.0\SonOfCodSeafood.dll
+C:\Users\Bo\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\bin\Debug\netcoreapp1.0\SonOfCodSeafood.pdb
+C:\Users\Bo\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\obj\Debug\netcoreapp1.0\SonOfCodSeafood.csprojResolveAssemblyReference.cache
+C:\Users\Bo\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\obj\Debug\netcoreapp1.0\SonOfCodSeafood.AssemblyInfo.cs
+C:\Users\Bo\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\obj\Debug\netcoreapp1.0\SonOfCodSeafood.dll
+C:\Users\Bo\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\obj\Debug\netcoreapp1.0\SonOfCodSeafood.pdb

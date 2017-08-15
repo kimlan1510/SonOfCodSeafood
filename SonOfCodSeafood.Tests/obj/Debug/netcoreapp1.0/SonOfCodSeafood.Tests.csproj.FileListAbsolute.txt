@@ -1,0 +1,14 @@
+C:\Users\Bo\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\bin\Debug\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Bo\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\bin\Debug\netcoreapp1.0\xunit.runner.utility.dotnet.dll
+C:\Users\Bo\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\bin\Debug\netcoreapp1.0\xunit.runner.reporters.dotnet.dll
+C:\Users\Bo\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\bin\Debug\netcoreapp1.0\SonOfCodSeafood.Tests.deps.json
+C:\Users\Bo\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\bin\Debug\netcoreapp1.0\SonOfCodSeafood.Tests.runtimeconfig.json
+C:\Users\Bo\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\bin\Debug\netcoreapp1.0\SonOfCodSeafood.Tests.runtimeconfig.dev.json
+C:\Users\Bo\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\bin\Debug\netcoreapp1.0\SonOfCodSeafood.Tests.dll
+C:\Users\Bo\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\bin\Debug\netcoreapp1.0\SonOfCodSeafood.Tests.pdb
+C:\Users\Bo\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\bin\Debug\netcoreapp1.0\SonOfCodSeafood.dll
+C:\Users\Bo\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\bin\Debug\netcoreapp1.0\SonOfCodSeafood.pdb
+C:\Users\Bo\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\obj\Debug\netcoreapp1.0\SonOfCodSeafood.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Bo\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\obj\Debug\netcoreapp1.0\SonOfCodSeafood.Tests.AssemblyInfo.cs
+C:\Users\Bo\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\obj\Debug\netcoreapp1.0\SonOfCodSeafood.Tests.dll
+C:\Users\Bo\Desktop\SonOfCodSeafood\SonOfCodSeafood.Tests\obj\Debug\netcoreapp1.0\SonOfCodSeafood.Tests.pdb

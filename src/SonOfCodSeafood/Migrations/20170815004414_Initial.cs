@@ -63,6 +63,19 @@ namespace SonOfCodSeafood.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "NewsLetters",
+                columns: table => new
+                {
+                    NewsLetterId = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Email = table.Column<string>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_NewsLetters", x => x.NewsLetterId);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "AspNetRoleClaims",
                 columns: table => new
                 {
@@ -206,6 +219,9 @@ namespace SonOfCodSeafood.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
+
+            migrationBuilder.DropTable(
+                name: "NewsLetters");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

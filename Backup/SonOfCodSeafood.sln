@@ -1,15 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{51E89612-5905-423C-A38D-FD4970FA6111}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C46443E0-EAEF-4867-B068-3E550C69E7DC}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SonOfCodSeafood", "src\SonOfCodSeafood\SonOfCodSeafood.csproj", "{393F1B1B-C0CB-4173-9BED-11231D5194DF}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonOfCodSeafood", "src\SonOfCodSeafood\SonOfCodSeafood.xproj", "{393F1B1B-C0CB-4173-9BED-11231D5194DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{9C997518-696F-4462-B91F-4F4CAC3F10D2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E3D8887F-3610-4E95-BDDB-29F0A7E647B0}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonOfCodSeafood.Tests", "SonOfCodSeafood.Tests\SonOfCodSeafood.Tests.xproj", "{5CA23F8B-F208-4D80-80F3-08ED220D160F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,15 +26,16 @@ Global
 		{393F1B1B-C0CB-4173-9BED-11231D5194DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{393F1B1B-C0CB-4173-9BED-11231D5194DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{393F1B1B-C0CB-4173-9BED-11231D5194DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C997518-696F-4462-B91F-4F4CAC3F10D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C997518-696F-4462-B91F-4F4CAC3F10D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C997518-696F-4462-B91F-4F4CAC3F10D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C997518-696F-4462-B91F-4F4CAC3F10D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA23F8B-F208-4D80-80F3-08ED220D160F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA23F8B-F208-4D80-80F3-08ED220D160F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA23F8B-F208-4D80-80F3-08ED220D160F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA23F8B-F208-4D80-80F3-08ED220D160F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{393F1B1B-C0CB-4173-9BED-11231D5194DF} = {51E89612-5905-423C-A38D-FD4970FA6111}
+		{5CA23F8B-F208-4D80-80F3-08ED220D160F} = {E3D8887F-3610-4E95-BDDB-29F0A7E647B0}
 	EndGlobalSection
 EndGlobal
